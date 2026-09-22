@@ -90,3 +90,34 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 1024px) {
+  .service-card {
+    position: static;
+    flex-direction: column;
+    padding: 32px 24px;
+    gap: 0;
+  }
+
+  .service-image-wrapper {
+    display: none;
+  }
+
+  .service-number {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+  }
+
+  .service-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .service-card p {
+    font-size: 1rem;
+    margin-bottom: 16px;
+  }
+
+  .service-tags {
+    margin-bottom: 24px;
+  }
+}
