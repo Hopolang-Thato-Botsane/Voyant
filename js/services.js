@@ -2,25 +2,25 @@ export const servicesData = [
   {
     number: "01.",
     title: "Airport & Regional Transfers",
-    description: "Avoid the hassle of parking, delays, or last-minute bookings. Our Airport Transfer service ensures you arrive at your flight on time and return home comfortably. We monitor flight times, adjust for delays, and provide real-time updates so you're never left waiting.",
+    description: "Avoid the hassle of parking, delays, or last-minute bookings. Our Airport Transfer service ensures you arrive at your flight on time and return home...",
     tags: "On-time pickups | Flight monitoring | luggage assistance | 24/7 availability.",
-    image: "./assets/images/service-1.jpg",
+    image: "./public/assets/services/service-1.jpg",
     buttonText: "Reserve Trip"
   },
   {
     number: "02.",
     title: "Curated Stay & Transfer Packages",
-    description: "Experience the ultimate Lowveld getaway with our integrated travel bundles. We've partnered with the region's top resorts to offer seamless, all-in-one packages that handle both your luxury accommodation and your private ground transportation, ensuring a stress-free transition from the terminal to your suite.",
-    tags: "Exclusive partner rates | Door-to-door coordination | Flight monitoring | luggage assistance | Bespoke itinerary management.",
-    image: "./assets/images/service-2.jpg",
+    description: "Experience the ultimate Lowveld getaway with our integrated travel bundles. We've partnered with the region's top resorts to offer seamless, all-in-one...",
+    tags: "Exclusive partner rates | Door-to-door coordination | Flight monitoring | Luggage assistance | Bespoke itinerary management.",
+    image: "./public/assets/services/service-2.jpg",
     buttonText: "Reserve Trip"
   },
   {
     number: "03.",
     title: "Executive & Corporate Transit",
-    description: "When time matters and impressions count, we provide discreet, professional service for business travelers, VIPs, and event coordination. Our executive shuttles are meticulously maintained to provide a quiet, comfortable mobile office environment, allowing you to focus on your work while we handle the route.",
+    description: "When time matters and impressions count, we provide discreet, professional service for business travelers, VIPs, and event coordination. Our executive...",
     tags: "Discreet & professional drivers | Business-class comfort | Monthly corporate billing | Priority dispatch | 24/7 availability.",
-    image: "./assets/images/service-3.jpg",
+    image: "./public/assets/services/service-3.jpg",
     buttonText: "Reserve Trip"
   }
 ];
