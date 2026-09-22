@@ -1,34 +1,39 @@
-// js/testimonials.js
 export const testimonialData = [
   {
     quote: "The airport transfer was completely seamless. Even with our flight delay, our driver was right there waiting for us. Absolute lifesaver.",
     name: "Sarah L",
-    role: "Leisure Traveler"
+    role: "Leisure Traveler",
+    avatar: "./public/assets/reviews/reviewer-1.jpg"
   },
   {
     quote: "As a concierge, I need transport partners I can blindly trust with VIP clients. Voyant has never missed a beat.",
     name: "James R",
-    role: "Concierge Manager"
+    role: "Concierge Manager",
+    avatar: "./public/assets/reviews/reviewer-2.jpg"
   },
   {
     quote: "Clean executive vehicles, pristine interiors, and a driver who actually knew the best regional routes. Worth every single rand.",
     name: "Michael K",
-    role: "Business Traveler"
+    role: "Business Traveler",
+    avatar: "./public/assets/reviews/reviewer-3.jpg"
   },
   {
     quote: "Working with the team has been a game-changer for our resort guests. Reliable, professional, and always on time.",
     name: "Hotel Partner",
-    role: "Sun Valley Lodge"
+    role: "Sun Valley Lodge",
+    avatar: "./public/assets/reviews/reviewer-4.jpg"
   },
   {
     quote: "Safe, comfortable, and incredibly punctual. It made our family holiday stress-free right from the moment we touched down.",
     name: "The van Der Merwe Family",
-    role: "Vacationers"
+    role: "Vacationers",
+    avatar: "./public/assets/reviews/reviewer-5.jpg"
   },
   {
     quote: "Booking our stay package and private transfer together saved us so much coordination hassle. Flawless execution from start to finish.",
     name: "David & Emma T",
-    role: "Vacationers"
+    role: "Vacationers",
+    avatar: "./public/assets/reviews/reviewer-6.jpg"
   }
 ];
 
@@ -43,7 +48,9 @@ export function initTestimonials(trackSelector) {
     <div class="review-card">
       <p>"${item.quote}"</p>
       <div class="reviewer-info">
-        <div class="avatar"></div>
+        <div class="avatar">
+          <img src="${item.avatar}" alt="${item.name}" />
+        </div>
         <div>
           <strong>${item.name}</strong>
           <span>${item.role}</span>
@@ -68,7 +75,6 @@ export function initTestimonials(trackSelector) {
   }
 
   function updateScroll() {
-    // Disable desktop scroll-jacking behavior on mobile screens (width <= 1024px)
     if (window.innerWidth <= 1024) {
       track.style.transform = 'none';
       return;

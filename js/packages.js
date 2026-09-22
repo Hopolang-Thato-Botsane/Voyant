@@ -5,7 +5,7 @@ export const packagesData = [
     price: "R 12,500",
     rating: "4.9",
     tags: ["Luxury Villa", "Wildlife", "All Inclusive"],
-    image: "./public/assets/resorts/resort-1.jpg"
+    image: "./assets/images/package-1.jpg"
   },
   {
     title: "White River Manor Sanctuary",
@@ -13,7 +13,7 @@ export const packagesData = [
     price: "R 3,450",
     rating: "4.8",
     tags: ["Garden Estate", "Wellness", "Boutique Stay"],
-    image: "./public/assets/resorts/resort-2.jpg"
+    image: "./assets/images/package-2.jpg"
   },
   {
     title: "Camp Jabulani Wilderness Villa",
@@ -21,7 +21,7 @@ export const packagesData = [
     price: "R 8,900",
     rating: "4.9",
     tags: ["Private Villa", "Bush Retreat", "Exquisite Dining"],
-    image: "./public/assets/resorts/resort-3.jpg"
+    image: "./assets/images/package-3.jpg"
   },
   {
     title: "The Leonardo Sandton Suites",
@@ -29,7 +29,7 @@ export const packagesData = [
     price: "R 2,850",
     rating: "4.7",
     tags: ["City Skyline", "Executive", "Penthouse Living"],
-    image: "./public/assets/resorts/resort-4.jpg"
+    image: "./assets/images/package-4.jpg"
   },
   {
     title: "Oliver's Restaurant & Lodge",
@@ -37,15 +37,15 @@ export const packagesData = [
     price: "R 2,100",
     rating: "4.8",
     tags: ["Country House", "Wine & Dine", "Scenic Views"],
-    image: "./public/assets/resorts/resort-5.jpg"
+    image: "./assets/images/package-5.jpg"
   },
   {
     title: "Thulani Pods & Canyon Retreat",
     description: "Ultra-modern architectural glass pods nestled into the mountainside, offering sweeping panoramic vistas of the world's largest green canyon.",
-    price: "R 4,200",
+    price: "R PRICE",
     rating: "4.9",
     tags: ["Eco-Luxury", "Mountain Views", "Stargazing"],
-    image: "./public/assets/resorts/resort-6.jpg"
+    image: "./assets/images/package-6.jpg"
   }
 ];
 
